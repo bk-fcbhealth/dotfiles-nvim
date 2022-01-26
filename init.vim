@@ -2,15 +2,18 @@ call plug#begin("~/.vim/plugged")
 " Plugin Section
 "
 " Themes
-Plug 'dracula/vim'
-Plug 'kyoz/purify', { 'rtp': 'vim' }
-Plug 'drewtempelmeyer/palenight.vim'
-Plug 'tomasr/molokai'
-Plug 'jacoborus/tender'
-Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
-Plug 'tomasiser/vim-code-dark'
-Plug 'catppuccin/nvim', {'as': 'catppuccin'}
+" Plug 'dracula/vim'
+" Plug 'kyoz/purify', { 'rtp': 'vim' }
+" Plug 'drewtempelmeyer/palenight.vim'
+" Plug 'tomasr/molokai'
+" Plug 'jacoborus/tender'
+" Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
+" Plug 'tomasiser/vim-code-dark'
+" Plug 'catppuccin/nvim', {'as': 'catppuccin'}
 Plug 'mhartington/oceanic-next'
+" Plug 'shaunsingh/moonlight.nvim'
+Plug 'jaredgorski/spacecamp'
+" Plug 'tyrannicaltoucan/vim-deep-space'
 " Plug 'morhetz/gruvbox'
 Plug 'gruvbox-community/gruvbox'
 "
