@@ -16,6 +16,7 @@ Plug 'jaredgorski/spacecamp'
 " Plug 'tyrannicaltoucan/vim-deep-space'
 Plug 'sainnhe/everforest'
 Plug 'sainnhe/edge'
+Plug 'sainnhe/gruvbox-material'
 " Plug 'morhetz/gruvbox'
 Plug 'gruvbox-community/gruvbox'
 "
