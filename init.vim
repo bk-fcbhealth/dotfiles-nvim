@@ -14,10 +14,13 @@ Plug 'mhartington/oceanic-next'
 " Plug 'shaunsingh/moonlight.nvim'
 Plug 'jaredgorski/spacecamp'
 " Plug 'tyrannicaltoucan/vim-deep-space'
+Plug 'sainnhe/everforest'
+Plug 'sainnhe/edge'
 " Plug 'morhetz/gruvbox'
 Plug 'gruvbox-community/gruvbox'
 "
 "
+colorscheme edge
 "
 
 "
@@ -175,7 +178,7 @@ if (has("termguicolors"))
  set termguicolors
 endif
 syntax enable
-colorscheme gruvbox
+" colorscheme edge
 
 "File tree settings
 let g:NERDTreeShowHidden = 1
