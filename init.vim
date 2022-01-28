@@ -20,7 +20,6 @@ Plug 'sainnhe/edge'
 Plug 'gruvbox-community/gruvbox'
 "
 "
-colorscheme edge
 "
 
 "
@@ -178,7 +177,7 @@ if (has("termguicolors"))
  set termguicolors
 endif
 syntax enable
-" colorscheme edge
+colorscheme edge
 
 "File tree settings
 let g:NERDTreeShowHidden = 1
