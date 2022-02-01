@@ -101,6 +101,8 @@ Plug 'tpope/vim-surround'
 " css highlighting in HTML files
 Plug 'groenewege/vim-less'
 
+" Rainbow Parenteses Improved
+Plug 'luochen1990/rainbow'
 
 " highlighting for git changes
 " Plug 'chrisbra/changesPlugin'
@@ -139,6 +141,14 @@ Plug 'lilydjwg/colorizer'
 
 
 
+"
+" syntax checking
+Plug 'scrooloose/syntastic'
+"
+"
+"
+"
+"
 " Testing out 
 " improved JS indentation+syntax highlighting
 Plug 'pangloss/vim-javascript'
@@ -178,7 +188,7 @@ if (has("termguicolors"))
  set termguicolors
 endif
 syntax enable
-colorscheme edge
+colorscheme gruvbox
 
 "File tree settings
 let g:NERDTreeShowHidden = 1
