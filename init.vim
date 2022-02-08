@@ -170,6 +170,14 @@ Plug 'joukevandermaas/vim-ember-hbs'
 "
 " :T <command> for terminal
 Plug 'kassio/neoterm'
+let g:neoterm_callbacks = {}
+    function! g:neoterm_callbacks.before_new()
+      if winwidth('.') > 100
+        let g:neoterm_default_mod = 'botright vertical'
+      else
+        let g:neoterm_default_mod = 'botright'
+      end
+    endfunction
 
 
 "notes - vim wiki vimwiki
