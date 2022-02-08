@@ -23,6 +23,8 @@ Plug 'gruvbox-community/gruvbox'
 "
 "
 
+" Github CoPilot
+Plug 'github/copilot.vim'
 "
 "
 " File Tree
