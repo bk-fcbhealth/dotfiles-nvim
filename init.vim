@@ -29,8 +29,6 @@ Plug 'github/copilot.vim'
 "
 " File Tree
 Plug 'scrooloose/nerdtree'
-" More file tree stuff
-Plug 'ryanoasis/vim-devicons'
 "
 "
 " ThePrimeagen Game for vim
@@ -186,6 +184,8 @@ let g:neoterm_callbacks = {}
 Plug 'vimwiki/vimwiki'
 
 
+" More file tree stuff
+Plug 'ryanoasis/vim-devicons'
 
 let g:user_emmet_mode='n'
 " m then , will make the tags change
