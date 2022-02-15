@@ -29,7 +29,8 @@ Plug 'github/copilot.vim'
 "
 " File Tree
 Plug 'scrooloose/nerdtree'
-"
+" file tree colors
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 "
 " ThePrimeagen Game for vim
 Plug 'ThePrimeagen/vim-be-good'
