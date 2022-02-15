@@ -164,9 +164,16 @@ Plug 'hdima/python-syntax'
 "
 " Handlebars - .hbs files
 Plug 'joukevandermaas/vim-ember-hbs'
+
+
+Plug 'voldikss/vim-floaterm'
 "
 " vim in zsh
 " Plug 'jeffreytse/zsh-vi-mode'
+"
+"
+" floating terminal
+Plug 'voldikss/vim-floaterm'
 "
 "
 " :T <command> for terminal
@@ -237,7 +244,8 @@ nnoremap <c-n> :call OpenTerminal()<CR>
 " nnoremap <A-k> <C-w>k
 " nnoremap <A-l> <C-w>l
 
-
+" nnoremap <c-t> :call FloatermNew! cd %:p:h<CR>
+map <c-t> :FloatermToggle! cd %:p:h<CR>
 
 " Telescope stuff
 nnoremap <leader>ff <cmd>Telescope find_files<cr>
