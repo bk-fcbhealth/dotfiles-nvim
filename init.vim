@@ -11,8 +11,8 @@ call plug#begin("~/.vim/plugged")
 " Plug 'tomasiser/vim-code-dark'
 " Plug 'catppuccin/nvim', {'as': 'catppuccin'}
 Plug 'mhartington/oceanic-next'
-" Plug 'shaunsingh/moonlight.nvim'
-Plug 'jaredgorski/spacecamp'
+Plug 'shaunsingh/moonlight.nvim'
+" Plug 'jaredgorski/spacecamp'
 " Plug 'tyrannicaltoucan/vim-deep-space'
 Plug 'sainnhe/everforest'
 Plug 'sainnhe/edge'
@@ -194,6 +194,19 @@ Plug 'vimwiki/vimwiki'
 
 " More file tree stuff
 Plug 'ryanoasis/vim-devicons'
+
+
+"
+"focus windows
+" Plug 'hoschi/yode-nvim'
+
+"
+"
+" context menu
+" Plug 'wellle/context.vim'
+
+
+
 
 let g:user_emmet_mode='n'
 " m then , will make the tags change
