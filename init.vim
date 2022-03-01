@@ -190,6 +190,8 @@ let g:neoterm_callbacks = {}
 
 "notes - vim wiki vimwiki
 Plug 'vimwiki/vimwiki'
+" Distraction-free writing
+Plug 'junegunn/goyo.vim'
 
 
 " More file tree stuff
@@ -205,7 +207,7 @@ Plug 'ryanoasis/vim-devicons'
 " context menu
 " Plug 'wellle/context.vim'
 
-
+" Plug 'sheerun/vim-polyglot'
 
 
 let g:user_emmet_mode='n'
@@ -219,7 +221,7 @@ if (has("termguicolors"))
  set termguicolors
 endif
 syntax enable
-colorscheme gruvbox
+colorscheme gruvbox-material
 
 "File tree settings
 let g:NERDTreeShowHidden = 1
