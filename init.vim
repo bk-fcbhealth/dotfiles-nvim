@@ -7,13 +7,14 @@ call plug#begin("~/.vim/plugged")
 " Plug 'drewtempelmeyer/palenight.vim'
 " Plug 'tomasr/molokai'
 " Plug 'jacoborus/tender'
-" Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
+Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 " Plug 'tomasiser/vim-code-dark'
 " Plug 'catppuccin/nvim', {'as': 'catppuccin'}
 Plug 'mhartington/oceanic-next'
 Plug 'shaunsingh/moonlight.nvim'
 " Plug 'jaredgorski/spacecamp'
 " Plug 'tyrannicaltoucan/vim-deep-space'
+Plug 'EdenEast/nightfox.nvim'
 Plug 'sainnhe/everforest'
 Plug 'sainnhe/edge'
 Plug 'sainnhe/gruvbox-material'
@@ -221,7 +222,7 @@ if (has("termguicolors"))
  set termguicolors
 endif
 syntax enable
-colorscheme gruvbox-material
+colorscheme nightfox
 
 "File tree settings
 let g:NERDTreeShowHidden = 1
