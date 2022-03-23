@@ -38,6 +38,9 @@ Plug 'ThePrimeagen/vim-be-good'
 " Harpoon
 Plug 'ThePrimeagen/harpoon'
 
+" git worktrees
+Plug 'ThePrimeagen/git-worktree.nvim'
+" require("telescope").load_extension("git_worktree")
 
 Plug 'jremmen/vim-ripgrep'
 " git integration?
@@ -268,6 +271,9 @@ nnoremap <leader>ff <cmd>Telescope find_files<cr>
 nnoremap <leader>fg <cmd>Telescope live_grep<cr>
 nnoremap <leader>fb <cmd>Telescope buffers<cr>
 nnoremap <leader>fh <cmd>Telescope help_tags<cr>
+
+
+nnoremap <leader>gw <cmd>lua require('telescope').extensions.git_worktree.git_worktrees()<cr>
 
 " Harpoon
 " nnoremap <silent><leader>a :lua require("harpoon.mark").add_file()<CR>
