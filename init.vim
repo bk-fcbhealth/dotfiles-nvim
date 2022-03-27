@@ -274,6 +274,7 @@ nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 
 
 nnoremap <leader>gw <cmd>lua require('telescope').extensions.git_worktree.git_worktrees()<cr>
+nnoremap <leader>ga <cmd>lua require('telescope').extensions.git_worktree.create_git_worktree()<cr>
 
 " Harpoon
 " nnoremap <silent><leader>a :lua require("harpoon.mark").add_file()<CR>
