@@ -20,19 +20,15 @@ Plug 'sainnhe/edge'
 Plug 'sainnhe/gruvbox-material'
 " Plug 'morhetz/gruvbox'
 Plug 'gruvbox-community/gruvbox'
-"
-"
-"
 
 " Github CoPilot
 Plug 'github/copilot.vim'
-"
-"
+
 " File Tree
 Plug 'scrooloose/nerdtree'
 " file tree colors
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-"
+
 " ThePrimeagen Game for vim
 Plug 'ThePrimeagen/vim-be-good'
 " Harpoon
@@ -43,7 +39,8 @@ Plug 'ThePrimeagen/git-worktree.nvim'
 " require("telescope").load_extension("git_worktree")
 
 Plug 'jremmen/vim-ripgrep'
-" git integration?
+
+" git integration
 Plug 'tpope/vim-fugitive'
 " Git status line
 Plug 'vim-airline/vim-airline'
@@ -65,10 +62,7 @@ Plug 'mbbill/undotree'
 " Plug 'git@github.com:Valloric/YouCompleteMe.git'
 " Plug 'Valloric/YouCompleteMe'
 
-
 " Autocomplete stuff
-" coq_nvim
-" main one
 " Plug 'ms-jpq/coq_nvim', {'branch': 'coq'}
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'neoclide/coc-html'
@@ -79,7 +73,6 @@ Plug 'neoclide/coc-css'
 Plug 'neoclide/coc-tsserver'
 Plug 'neoclide/coc-python'
 
-
 Plug 'Yggdroot/indentLine'
 
 " Telescope stuff
@@ -87,7 +80,6 @@ Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-telescope/telescope-fzy-native.nvim'
-
 
 " smooth scrolling
  Plug 'psliwka/vim-smoothie'
@@ -132,7 +124,7 @@ Plug 'mhinz/vim-startify'
 Plug 'ervandew/supertab'
 " multiple cursors 
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
-"
+
 " reversing the order in which it scrolls
 let g:SuperTabDefaultCompletionType = "<c-n>"
 " prevents from creating a new line after Enter
@@ -144,42 +136,29 @@ let g:SuperTabCrMapping = 1
 " off?
 Plug 'lilydjwg/colorizer'
 
-
-
-"
 " syntax checking
 Plug 'scrooloose/syntastic'
-"
-"
-"
-"
-"
+
 " Testing out 
 " improved JS indentation+syntax highlighting
 Plug 'pangloss/vim-javascript'
-"
-"
+
 Plug 'prettier/vim-prettier'
-"
-"
+
 "Python syntax
 Plug 'hdima/python-syntax'
-"
-"
+
 " Handlebars - .hbs files
 Plug 'joukevandermaas/vim-ember-hbs'
 
-
 Plug 'voldikss/vim-floaterm'
-"
+
 " vim in zsh
 " Plug 'jeffreytse/zsh-vi-mode'
-"
-"
+
 " floating terminal
 Plug 'voldikss/vim-floaterm'
-"
-"
+
 " :T <command> for terminal
 Plug 'kassio/neoterm'
 let g:neoterm_callbacks = {}
@@ -191,28 +170,21 @@ let g:neoterm_callbacks = {}
       end
     endfunction
 
-
 "notes - vim wiki vimwiki
 Plug 'vimwiki/vimwiki'
 " Distraction-free writing
 Plug 'junegunn/goyo.vim'
 
-
 " More file tree stuff
 Plug 'ryanoasis/vim-devicons'
 
-
-"
 "focus windows
 " Plug 'hoschi/yode-nvim'
 
-"
-"
 " context menu
 " Plug 'wellle/context.vim'
 
 " Plug 'sheerun/vim-polyglot'
-
 
 let g:user_emmet_mode='n'
 " m then , will make the tags change
@@ -251,7 +223,6 @@ function! OpenTerminal()
   resize 10
 endfunction
 nnoremap <c-n> :call OpenTerminal()<CR>
-
 
 " use alt+hjkl to move between split/vsplit panels
 " tnoremap <A-h> <C-\><C-n><C-w>h
