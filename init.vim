@@ -125,6 +125,9 @@ Plug 'ervandew/supertab'
 " multiple cursors 
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 
+" LSP stuff
+Plug 'neovim/nvim-lspconfig'
+
 " reversing the order in which it scrolls
 let g:SuperTabDefaultCompletionType = "<c-n>"
 " prevents from creating a new line after Enter
