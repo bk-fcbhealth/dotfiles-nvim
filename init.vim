@@ -183,6 +183,9 @@ Plug 'ryanoasis/vim-devicons'
 
 "focus windows
 " Plug 'hoschi/yode-nvim'
+"
+" closing tags
+Plug 'max-0406/autoclose.nvim'
 
 " context menu
 " Plug 'wellle/context.vim'
@@ -200,7 +203,7 @@ if (has("termguicolors"))
  set termguicolors
 endif
 syntax enable
-colorscheme nightfox
+colorscheme gruvbox
 
 "File tree settings
 let g:NERDTreeShowHidden = 1
