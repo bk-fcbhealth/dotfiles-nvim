@@ -184,8 +184,10 @@ Plug 'ryanoasis/vim-devicons'
 "focus windows
 " Plug 'hoschi/yode-nvim'
 "
-" closing tags
+" closing parenthesis
 Plug 'max-0406/autoclose.nvim'
+" closing tags
+Plug 'alvan/vim-closetag'
 
 " context menu
 " Plug 'wellle/context.vim'
