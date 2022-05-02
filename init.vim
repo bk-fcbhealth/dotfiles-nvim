@@ -135,9 +135,10 @@ let g:SuperTabCrMapping = 1
 "
 "
 
-" Color hex codes - can get annoying occasionally. Maybe start with the plugin
-" off?
-Plug 'lilydjwg/colorizer'
+" color hex codes css 
+" Plug 'lilydjwg/colorizer'
+" color hex codes + words css 
+Plug 'ap/vim-css-color'
 
 " syntax checking
 Plug 'scrooloose/syntastic'
