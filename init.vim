@@ -22,7 +22,8 @@ Plug 'sainnhe/gruvbox-material'
 Plug 'gruvbox-community/gruvbox'
 
 " Github CoPilot
-Plug 'github/copilot.vim'
+" Now have to pay for this
+" Plug 'github/copilot.vim'
 
 " File Tree
 Plug 'scrooloose/nerdtree'
@@ -194,6 +195,14 @@ Plug 'alvan/vim-closetag'
 " Plug 'wellle/context.vim'
 
 " Plug 'sheerun/vim-polyglot'
+"
+"
+"
+" Automatic window resizing
+Plug 'camspiers/animate.vim'
+Plug 'camspiers/lens.vim'
+"
+"
 
 let g:user_emmet_mode='n'
 " m then , will make the tags change
