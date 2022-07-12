@@ -23,7 +23,7 @@ Plug 'gruvbox-community/gruvbox'
 
 " Github CoPilot
 " Now have to pay for this
-" Plug 'github/copilot.vim'
+Plug 'github/copilot.vim'
 
 " File Tree
 Plug 'scrooloose/nerdtree'
@@ -73,6 +73,8 @@ Plug 'neoclide/coc-css'
 " This includes JS as well
 Plug 'neoclide/coc-tsserver'
 Plug 'neoclide/coc-python'
+
+Plug 'nvim-lua/completion-nvim'
 
 Plug 'Yggdroot/indentLine'
 
