@@ -13,5 +13,6 @@ vim.opt.incsearch = true
 vim.opt.smartindent = true
 
 vim.opt.wrap = false
-
-vim.g.mapleader = " "
+-- commenting this out to make default "\" backslash leader
+-- vim.gimapleader = " "
+vim.gimapleader = "\\"
