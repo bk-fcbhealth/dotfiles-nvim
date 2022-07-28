@@ -2,18 +2,18 @@ call plug#begin("~/.vim/plugged")
 " Plugin Section
 "
 " Themes
-" Plug 'dracula/vim'
-" Plug 'kyoz/purify', { 'rtp': 'vim' }
-" Plug 'drewtempelmeyer/palenight.vim'
-" Plug 'tomasr/molokai'
-" Plug 'jacoborus/tender'
+Plug 'dracula/vim'
+Plug 'kyoz/purify', { 'rtp': 'vim' }
+Plug 'drewtempelmeyer/palenight.vim'
+Plug 'tomasr/molokai'
+Plug 'jacoborus/tender'
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
-" Plug 'tomasiser/vim-code-dark'
-" Plug 'catppuccin/nvim', {'as': 'catppuccin'}
+Plug 'tomasiser/vim-code-dark'
+Plug 'catppuccin/nvim', {'as': 'catppuccin'}
 Plug 'mhartington/oceanic-next'
 Plug 'shaunsingh/moonlight.nvim'
-" Plug 'jaredgorski/spacecamp'
-" Plug 'tyrannicaltoucan/vim-deep-space'
+Plug 'jaredgorski/spacecamp'
+Plug 'tyrannicaltoucan/vim-deep-space'
 Plug 'EdenEast/nightfox.nvim'
 Plug 'sainnhe/everforest'
 Plug 'sainnhe/edge'
@@ -24,6 +24,11 @@ Plug 'gruvbox-community/gruvbox'
 " Github CoPilot
 " Now have to pay for this
 Plug 'github/copilot.vim'
+
+" :GBrowse to open up the repo in their respective version control
+Plug 'cedarbaum/fugitive-azure-devops.vim'
+Plug 'shumphrey/fugitive-gitlab.vim'
+Plug 'tpope/vim-rhubarb'
 
 " File Tree
 Plug 'scrooloose/nerdtree'
@@ -144,7 +149,9 @@ let g:SuperTabCrMapping = 1
 Plug 'ap/vim-css-color'
 
 " syntax checking
-Plug 'scrooloose/syntastic'
+" Syntastic deprecated
+" Plug 'scrooloose/syntastic'
+Plug 'w0rp/ale'
 
 " Testing out 
 " improved JS indentation+syntax highlighting
@@ -217,7 +224,7 @@ if (has("termguicolors"))
  set termguicolors
 endif
 syntax enable
-colorscheme gruvbox
+colorscheme gruvbox-material
 
 "File tree settings
 let g:NERDTreeShowHidden = 1
