@@ -25,6 +25,11 @@ Plug 'gruvbox-community/gruvbox'
 " Now have to pay for this
 Plug 'github/copilot.vim'
 
+" :GBrowse to open up the repo in their respective version control
+Plug 'cedarbaum/fugitive-azure-devops.vim'
+Plug 'shumphrey/fugitive-gitlab.vim'
+Plug 'tpope/vim-rhubarb'
+
 " File Tree
 Plug 'scrooloose/nerdtree'
 " file tree colors
@@ -219,7 +224,7 @@ if (has("termguicolors"))
  set termguicolors
 endif
 syntax enable
-colorscheme gruvbox
+colorscheme gruvbox-material
 
 "File tree settings
 let g:NERDTreeShowHidden = 1
