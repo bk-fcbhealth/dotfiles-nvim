@@ -46,6 +46,9 @@ return require("packer").startup(function()
 
     -- Git section
     use("tpope/vim-fugitive")
+    use("cedarbaum/fugitive-azure-devops.vim")
+    use("shumphrey/fugitive-gitlab.vim")
+    use("tpope/vim-rhubarb")
 
 	--[[
     --

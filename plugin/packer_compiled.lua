@@ -89,6 +89,16 @@ _G.packer_plugins = {
     path = "/Users/brian.kleiner/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["fugitive-azure-devops.vim"] = {
+    loaded = true,
+    path = "/Users/brian.kleiner/.local/share/nvim/site/pack/packer/start/fugitive-azure-devops.vim",
+    url = "https://github.com/cedarbaum/fugitive-azure-devops.vim"
+  },
+  ["fugitive-gitlab.vim"] = {
+    loaded = true,
+    path = "/Users/brian.kleiner/.local/share/nvim/site/pack/packer/start/fugitive-gitlab.vim",
+    url = "https://github.com/shumphrey/fugitive-gitlab.vim"
+  },
   ["git-worktree.nvim"] = {
     loaded = true,
     path = "/Users/brian.kleiner/.local/share/nvim/site/pack/packer/start/git-worktree.nvim",
@@ -208,6 +218,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/brian.kleiner/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-rhubarb"] = {
+    loaded = true,
+    path = "/Users/brian.kleiner/.local/share/nvim/site/pack/packer/start/vim-rhubarb",
+    url = "https://github.com/tpope/vim-rhubarb"
   }
 }
 
